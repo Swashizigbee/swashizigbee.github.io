@@ -1,0 +1,27 @@
+
+.welcome{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin: 30px 12px;
+}
+.welcome::before {
+    content: "";
+    background: url("/background/visionacademy001.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 780px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.78;
+}
+.welcome h1{
+    font-size: 80px;
+}
+.logo img{
+    height:40px;
+}
+.welcome img{
+    height: 170px;
+    margin: 41px;
+}
